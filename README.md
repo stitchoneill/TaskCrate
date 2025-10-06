@@ -96,7 +96,9 @@ WebContent/WEB-INF/data/
 </context-param>
 If your DAOs read from a config.properties, mirror these values there.
 
-🧮 Initial Schema (Example)
+---
+
+##🧮 Initial Schema (Example)
 If your app doesn’t auto-migrate, run the SQL below once.
 
 Items
