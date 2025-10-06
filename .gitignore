@@ -1,0 +1,70 @@
+# ============================
+# Task Crate – Inventory & Job Planning System
+# Safe public .gitignore for Java + JSP + Tomcat project
+# ============================
+
+# === Java build output ===
+*.class
+*.jar
+*.war
+*.ear
+
+# === Project build directories ===
+/bin/
+/target/
+/out/
+/WebContent/WEB-INF/classes/
+
+# === Deployment artifacts ===
+/WebContent/InventoryApp.war
+/WebContent/WEB-INF/lib/*.jar
+
+# === Local configuration ===
+# (contains absolute paths or credentials)
+config.properties
+*.env
+*.ini
+
+# === Logs, temp, and DB files ===
+*.log
+*.tmp
+*.db
+*.sqlite
+*.h2.db
+/WebContent/WEB-INF/data/
+test_db/
+__pycache__/
+
+# === IDE / Editor settings ===
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+
+# === OS-specific files ===
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+$RECYCLE.BIN/
+
+# === Miscellaneous ===
+*.bak
+*.old
+*.orig
+*.tmp
+*.log
+*.pid
+*.seed
+*.cache
+*.lock
+
+# === Node or Front-end assets (if any future UI tools) ===
+node_modules/
+dist/
+build/
+package-lock.json
+yarn.lock
